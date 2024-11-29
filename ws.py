@@ -147,7 +147,7 @@ if __name__ == "__main__":
     compressed_audio = "aula2.mp3"
 
     # Escolha o arquivo para transcrição (original ou comprimido)
-    use_compressed_audio = False  # Alterne para False se quiser usar o original
+    use_compressed_audio = True  # Alterne para False se quiser usar o original
 
     if use_compressed_audio:
         print("Compressão do áudio ativada...")
@@ -158,6 +158,6 @@ if __name__ == "__main__":
         audio_path = input_audio
 
     print("Iniciando transcrição com Whisper...")
-    transcribe_audio2(audio_path, model_name="large", language="en")
+    transcribe_audio2(audio_path, model_name="medium", language="en")
 
     # medium #small #large #tiny #base
