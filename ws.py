@@ -96,6 +96,6 @@ if __name__ == "__main__":
         audio_path = input_audio
 
     print("Iniciando transcrição com Whisper...")
-    transcribe_audio(audio_path, model_name="medium")
+    transcribe_audio(audio_path, model_name="small")
 
     # medium #small #large #tiny #base
