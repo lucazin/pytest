@@ -7,9 +7,6 @@ import tiktoken
 import whisper
 
 # Configuração do cliente OpenAI
-client = OpenAI(
-    api_key="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",
-)
 
 
 def compress_audio(
