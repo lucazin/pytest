@@ -7,10 +7,6 @@ import tiktoken
 import requests
 
 
-client = OpenAI(
-    # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key = ''
-)
 
 # Função para contar o número de tokens em uma string para um modelo específico
 def count_tokens(text, model="gpt-4"):
